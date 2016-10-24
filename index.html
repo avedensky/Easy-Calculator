@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calc</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="res/style.css">
+	<script defer src="js/script.js"></script>
+</head>
+<body>	
+	<hr>
+	<h3><center>Calculator (JavaScript)</center></h3>
+	<hr>
+	<br>
+	<div class="calc">
+		<table>
+			<tr>
+				<td id="res" colspan="4">0</td>			
+			</tr>
+			<tr>
+				<td id="seven" onclick="input_value('7')">7</td>
+				<td id="eight" onclick="input_value('8')">8</td>
+				<td id="nine" onclick="input_value('9')">9</td>
+				<td id="multiply" onclick="input_value('*')">*</td>
+			</tr>
+			<tr>			
+				<td id="four" onclick="input_value('4')">4</td>
+				<td id="five" onclick="input_value('5')">5</td>
+				<td id="six" onclick="input_value('6')">6</td>
+				<td id="divide" onclick="input_value('/')">/</td>			
+			</tr>
+			<tr>			
+				<td id="one" onclick="input_value('1')">1</td>
+				<td id="two" onclick="input_value('2')">2</td>
+				<td id="three" onclick="input_value('3')">3</td>
+				<td id="minus" onclick="input_value('-')">-</td>			
+			</tr>
+			<tr>			
+				<td id="zero" onclick="input_value('0')">0</td>
+				<td id="dot" onclick="clean()">C</td>
+				<td id="equally" onclick="input_value('=')">=</td>
+				<td id="plus" onclick="input_value('+')">+</td>			
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

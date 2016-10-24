@@ -1,0 +1,28 @@
+@font-face { font-family: led_font; src: url('Segment14.otf'); } 
+
+td {
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	background: #D8E6F3;
+	text-align: center;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#res {
+	font-family: led_font;
+	text-align: right;
+	background-color: white;
+	cursor: help;
+	color:green;
+	font: Action-studio;
+
+}
+
+.calc {
+	width: 220px;
+	margin: auto;
+	border: 5px grey solid;
+	text-align: center;
+	box-shadow: 10px 10px 5px 0px;
+}
